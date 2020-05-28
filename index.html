@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <title>Airbnb Newsroom</title>
+</head>
+
+<body>
+    <!--Navigation Section-->
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-light py-3 px-4">
+        <a href="#" class="navbar-brand"><img src="./assets/images/home.svg" width="32" height="34" /> <span
+                class="pl-3"> Airbnb
+                Newsroom</span></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobileMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-none d-lg-flex ml-auto">
+            <ul class="navbar-nav">
+                <li class="nav-item pr-3">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item pr-3">
+                    <a class="nav-link" href="#">Fast Facts</a>
+                </li>
+                <li class="nav-item pr-3">
+                    <a class="nav-link" href="#">Media Assets</a>
+                </li>
+                <li class="nav-item pr-3">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item pl-lg-4 pl-0">
+                    <div class="dropdown">
+                        <button class="btn btn-link" type="button" id="languageSelect" data-toggle="dropdown"><i
+                                class="fa fa-globe"></i>
+                            English<i class="pl-1 fa fa-chevron-down icon-light"></i></button>
+                        <div class="language-dropdown dropdown-menu" aria-labelledby="languageSelect">
+                            <ul>
+                                <li>
+                                    <a class="active" href="#">English</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">United States</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Canada</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Asia-Pacific</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">AU and NZ</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">India</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">United Kingdom</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Français</a>
+                                </li>
+                                <li>
+                                    <a href="#">Deutsch</a>
+                                </li>
+                                <li>
+                                    <a href="#">Italiano</a>
+                                </li>
+                                <li>
+                                    <a href="#">Español (España)</a>
+                                </li>
+                                <li>
+                                    <a href="#">Español (América Latina)</a>
+                                </li>
+                                <li>
+                                    <a href="#">简体中文</a>
+                                </li>
+                                <li>
+                                    <a href="#">日本語</a>
+                                </li>
+                                <li>
+                                    <a href="#">한국어</a>
+                                </li>
+                                <li>
+                                    <a href="#">Português (Brasil)</a>
+                                </li>
+                                <li>
+                                    <a href="#">Português (Portugal)</a>
+                                </li>
+                                <li>
+                                    <a href="#">ไทย</a>
+                                </li>
+                                <li>
+                                    <a href="#">Nederlands</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item pl-lg-4 pl-0 my-auto">
+                    <i class="fa fa-search"></i>
+                </li>
+            </ul>
+        </div>
+        <!--Mobile Navigation-->
+        <div class="collapse navbar-collapse" id="mobileMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item pl-lg-4 pl-0 my-auto">
+                    <form class="search-wrap">
+                        <button><i class="fa fa-search"></i></button>
+                        <input class="search-input" placeholder="What Are You Looking For?" />
+                    </form>
+                </li>
+                <li class="nav-item pl-lg-4 pl-0">
+                    <div class="dropdown">
+                        <button class="btn btn-block btn-language text-left" type="button" id="languageSelect"
+                            data-toggle="dropdown"><i class="fa fa-globe"></i>
+                            English</button>
+                        <div class="language-dropdown mobile dropdown-menu position-absolute w-100"
+                            aria-labelledby="languageSelect">
+                            <ul>
+                                <li>
+                                    <a class="active" href="#">English</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">United States</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Canada</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Asia-Pacific</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">AU and NZ</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">India</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">United Kingdom</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Français</a>
+                                </li>
+                                <li>
+                                    <a href="#">Deutsch</a>
+                                </li>
+                                <li>
+                                    <a href="#">Italiano</a>
+                                </li>
+                                <li>
+                                    <a href="#">Español (España)</a>
+                                </li>
+                                <li>
+                                    <a href="#">Español (América Latina)</a>
+                                </li>
+                                <li>
+                                    <a href="#">简体中文</a>
+                                </li>
+                                <li>
+                                    <a href="#">日本語</a>
+                                </li>
+                                <li>
+                                    <a href="#">한국어</a>
+                                </li>
+                                <li>
+                                    <a href="#">Português (Brasil)</a>
+                                </li>
+                                <li>
+                                    <a href="#">Português (Portugal)</a>
+                                </li>
+                                <li>
+                                    <a href="#">ไทย</a>
+                                </li>
+                                <li>
+                                    <a href="#">Nederlands</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item menu-item pr-3">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item menu-item pr-3">
+                    <a class="nav-link" href="#">Fast Facts</a>
+                </li>
+                <li class="nav-item menu-item pr-3">
+                    <a class="nav-link" href="#">Media Assets</a>
+                </li>
+                <li class="nav-item menu-item pr-3">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Main Section-->
+    <div class="container">
+        <section style="margin-top: 80px;">
+            <div class="row">
+                <article class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-md-8">
+                            <a href="#">
+                                <div class="aspect-ratio-box rounded"
+                                    style="background-image: url('./assets/images/sky.jpg');">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-4 main-article">
+                            <h2 class="article-heading">
+                                <a href="#">
+                                    Best Airlines in 2020
+                                </a>
+                            </h2>
+                            <p class="article-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id aliquet libero, at
+                                pellentesque dui. Aliquam luctus odio arcu, eget posuere enim molestie at. Maecenas.
+                            </p>
+                            <span class="article-date">May 27, 2020 · <a href="#">Experiences</a>, <a
+                                    href="#">Company</a></span>
+                        </div>
+                    </div>
+                </article>
+        </section>
+
+        <hr class="mb-5" />
+
+        <section class="">
+            <h2 class="font-weight-bold mb-5">
+                Latest News
+            </h2>
+            <div class="row">
+                <article class="col-12 col-md-6">
+                    <a href="#">
+                        <div class="aspect-ratio-box rounded"
+                            style="background-image: url('./assets/images/mountain.jpg');">
+                        </div>
+                    </a>
+                    <div class="sub-article">
+                        <h4 class="article-heading">
+                            <a href="#">
+                                Best Places To Visit in 2020
+                            </a>
+                        </h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius hendrerit nunc vitae
+                            dignissim. Cras volutpat scelerisque condimentum.
+                        </p>
+                        <span class="article-date">January 14, 2020 · <a href="#">Experiences</a>, <a
+                                href="#">Stays</a></span>
+                    </div>
+                </article>
+                <article class="col-12 col-md-6">
+                    <a href="#">
+                        <div class="aspect-ratio-box rounded"
+                            style="background-image: url('./assets/images/road.jpg');">
+                        </div>
+                    </a>
+                    <div class="sub-article">
+                        <h4 class="article-heading">
+                            <a href="#">
+                                Best Things to do During Road Trips
+                            </a>
+                        </h4>
+                        <p>
+                            Quisque a vulputate est. Aenean lacus ipsum, tristique vitae dignissim id, egestas in felis.
+                            Aenean nisi lacus, ornare at porta sed, egestas ut.
+                        </p>
+                        <span class="article-date">January 27, 2020 · <a href="#">Experiences</a>, <a
+                                href="#">Stays</a></span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <hr />
+
+        <section class="">
+            <div class="categories d-flex">
+                <ul>
+                    <li class="active"><a href="#">All</a></li>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Stays</a></li>
+                    <li><a href="#">Experiences</a></li>
+                    <li><a href="#">Open Homes</a></li>
+                    <li><a href="#">Policy</a></li>
+                    <li><a href="#">Community</a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+                <article class="col-12 col-md-4">
+                    <a href="#">
+                        <div class="aspect-ratio-box rounded"
+                            style="background-image: url('./assets/images/bananas.jpg');">
+                        </div>
+                    </a>
+                    <div class="sub-article">
+                        <h4 class="article-heading">
+                            <a href="#">
+                                Remember Bananas In Pajamas? Here's What They Look Like Now
+                            </a>
+                        </h4>
+                        <p>
+                            Morbi at blandit dui. Suspendisse sed pharetra justo. Donec nec erat eget purus malesuada
+                            commodo non vel lorem. Lorem ipsum.
+                        </p>
+                        <span class="article-date">April 1, 2020 · <a href="#">Community</a></span>
+                    </div>
+                </article>
+                <article class="col-12 col-md-4">
+                    <a href="#">
+                        <div class="aspect-ratio-box rounded"
+                            style="background-image: url('./assets/images/laptop.jpg');">
+                        </div>
+                    </a>
+                    <div class="sub-article">
+                        <h4 class="article-heading">
+                            <a href="#">
+                                Code Efficiently With These Useful Tips
+                            </a>
+                        </h4>
+                        <p>
+                            Fusce a mi posuere, luctus nunc at, lobortis eros. Aliquam pharetra lorem libero, a
+                            ultricies est interdum eget. Praesent ipsum diam, placerat a fringilla.
+                        </p>
+                        <span class="article-date">March 14, 2020 · <a href="#">Company</a></span>
+                    </div>
+                </article>
+                <article class="col-12 col-md-4">
+                    <a href="#">
+                        <div class="aspect-ratio-box rounded"
+                            style="background-image: url('./assets/images/camera.jpg');">
+                        </div>
+                    </a>
+                    <div class="sub-article">
+                        <h4 class="article-heading">
+                            <a href="#">
+                                Best Cameras to Use in 2020
+                            </a>
+                        </h4>
+                        <p>
+                            Praesent tincidunt aliquam est non dictum. Etiam dictum eros sed ligula consequat sagittis.
+                            Nam nec dolor.
+                        </p>
+                        <span class="article-date">May 19, 2020 · <a href="#">Community</a></span>
+                    </div>
+                </article>
+                <article class="col-12 col-md-4">
+                    <a href="#">
+                        <div class="aspect-ratio-box rounded"
+                            style="background-image: url('./assets/images/hedgehog.jpg');">
+                        </div>
+                    </a>
+                    <div class="sub-article">
+                        <h4 class="article-heading">
+                            <a href="#">
+                                How Fast Are Hedgehogs
+                            </a>
+                        </h4>
+                        <p>
+                            Etiam at quam volutpat, sodales justo at, ultricies erat. Donec porta et.
+                        </p>
+                        <span class="article-date">February 14, 2020 · <a href="#">Community</a></span>
+                    </div>
+                </article>
+                <article class="col-12 col-md-4">
+                    <a href="#">
+                        <div class="aspect-ratio-box rounded" style="background-image: url('./assets/images/dog.jpg');">
+                        </div>
+                    </a>
+                    <div class="sub-article">
+                        <h4 class="article-heading">
+                            <a href="#">
+                                15 Tricks For Dog Owners
+                            </a>
+                        </h4>
+                        <p>
+                            Duis mollis et sapien in aliquet. Vivamus lacus tortor, cursus ut interdum at, dictum eu mi.
+                            Quisque at.
+                        </p>
+                        <span class="article-date">April 12, 2020 · <a href="#">Community</a></span>
+                    </div>
+                </article>
+                <article class="col-12 col-md-4">
+                    <a href="#">
+                        <div class="aspect-ratio-box rounded"
+                            style="background-image: url('./assets/images/sunset.jpg');">
+                        </div>
+                    </a>
+                    <div class="sub-article">
+                        <h4 class="article-heading">
+                            <a href="#">
+                                10 of the Most Amazing Sunsets
+                            </a>
+                        </h4>
+                        <p>
+                            Cras fringilla ut ligula pellentesque eleifend. Proin euismod mi vitae auctor pharetra.
+                            Curabitur vehicula mi.
+                        </p>
+                        <span class="article-date">May 1, 2020 · <a href="#">Community</a></span>
+                    </div>
+                </article>
+            </div>
+            <div class="text-center">
+                <button class="btn btn-more">
+                    More
+                </button>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="footer-main container d-none d-md-block">
+            <div class="row">
+                <div class="col-3">
+                    <ul>
+                        <li>Airbnb</li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Policies</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Diversity & Belonging</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <ul>
+                        <li>Discover</li>
+                        <li><a href="#">Trust & Safety</a></li>
+                        <li><a href="#">Travel Credit</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                        <li><a href="#">Airbnb Citizen</a></li>
+                        <li><a href="#">Business Travel</a></li>
+                        <li><a href="#">Guidebooks</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <ul>
+                        <li>Hosting</li>
+                        <li><a href="#">Why Host</a></li>
+                        <li><a href="#">Hospitality</a></li>
+                        <li><a href="#">Responsible Hosting</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <ul>
+                        <li>Disclaimer</li>
+                        <li>
+                            <p class="disclaimer">The Airbnb Newsroom is aimed at journalists. All Homes and Experiences
+                                referenced on the
+                                Airbnb Newsroom are intended purely to inspire and illustrate. Airbnb does not recommend
+                                or endorse specific Home or Experience listings on the Airbnb platform.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-sub container">
+            <div class="row">
+                <p class="col-12 disclaimer d-md-none">The Airbnb Newsroom is aimed at journalists. All Homes and
+                    Experiences
+                    referenced on the
+                    Airbnb Newsroom are intended purely to inspire and illustrate. Airbnb does not recommend
+                    or endorse specific Home or Experience listings on the Airbnb platform.</p>
+                <div class="col-12" style="line-height: 2.2em;">
+                    <div class="d-inline-block">
+                        <img src="./assets/images/favicon.ico" width="20px" /> <span class="copyright">&copy;
+                            Airbnb,Inc.</span>
+                    </div>
+                    <div class="float-right text-right">
+                        <div class="d-block d-md-inline-block">
+                            <span><a href="#">Cookie Preferences</a></span>
+                            <span><a href="#">Terms & Privacy</a></span>
+                        </div>
+                        <div class="social d-block d-md-inline-block">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
